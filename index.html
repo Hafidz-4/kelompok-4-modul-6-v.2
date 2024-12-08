@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sistem Manajemen Data KTP</title>
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+  </head>
+  <body>
+    <div class="landing-page">
+      <!-- Navbar Start -->
+      <nav>
+        <div class="group-name">Universitas Muhammadiyah Cirebon</div>
+    <ul>
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#informasi">Informasi</a></li>
+      <li><a href="#tools">Tools</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Section Beranda Start -->
+      <section
+        id="beranda"
+        class="section"
+      > 
+        <div class="content">
+          <h1>Sistem Manajemen Data KTP</h1>
+          <p>TI23K Kelompok 4 Modul 6</p>
+          <a
+            href="#informasi"
+            class="btn"
+            >Mulai Sekarang</a
+          >
+        </div>
+      </section>
+      <!-- Section Beranda End -->
+
+      <!-- Section Informasi Start -->
+      <section
+        id="informasi"
+        class="section"
+      >
+        <div class="content">
+          <h2>Disusun Oleh:</h2>
+          <div class="team-grid">
+            <div class="team-member">
+              <img
+                src="/api/placeholder/200/200"
+                alt="Nama"
+              />
+              <h3>Nikolas Hafidz Firmansyah</h3>
+              <p>NIM: 230511076</p>
+            </div>
+            <div class="team-member">
+              <img
+                src="/api/placeholder/200/200"
+                alt="Nama"
+              />
+              <h3>Mahesa Tunggal</h3>
+              <p>NIM: 230511123</p>
+            </div>
+            <div class="team-member">
+              <img
+                src="/api/placeholder/200/200"
+                alt="Nama"
+              />
+              <h3>Anggit Lesmana</h3>
+              <p>NIM: 230511052</p>
+            </div>
+            <div class="team-member">
+              <img
+                src="/api/placeholder/200/200"
+                alt="Nama"
+              />
+              <h3>Widia Ayu Ningsih</h3>
+              <p>NIM: 230511095</p>
+            </div>
+            <div class="team-member">
+              <img
+                src="/api/placeholder/200/200"
+                alt="Nama"
+              />
+              <h3>Sri Handayani</h3>
+              <p>NIM: 230511078</p>
+            </div>
+            <div class="team-member">
+              <img
+                src="/api/placeholder/200/200"
+                alt="Nama"
+              />
+              <h3>Fan Ling Ling</h3>
+              <p>NIM: 230511125</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Section Informasi End -->
+
+      <!-- Section Tools Start -->
+     <section id="tools" class="section"> 
+            <div class="content">
+                <h2>Manajemen Data KTP</h2>
+                <div class="tools-container">
+                    <div class="form-container">
+                        <form id="ktpForm">
+                            <div class="form-group">
+                                <label for="noID">Nomor ID:</label>
+                                <input type="text" id="noID" placeholder="Masukkan Nomor ID" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="nama">Nama:</label>
+                                <input type="text" id="nama" placeholder="Masukkan Nama" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="jenisKelamin">Jenis Kelamin:</label>
+                                <select id="jenisKelamin" required>
+                                    <option value="">Pilih Jenis Kelamin</option>
+                                    <option value="L">Laki-laki</option>
+                                    <option value="P">Perempuan</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="tanggalLahir">Tanggal Lahir:</label>
+                                <input type="date" id="tanggalLahir" required>
+                            </div>
+                            <button type="submit">Tambah Data KTP</button>
+                        </form>
+                    </div>
+                    <div class="data-container">
+                        <h3>Data KTP</h3>
+                        <div id="dataList" class="data-list"></div>                       
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <!-- Section Tools End -->
+
+    <!-- Contact Start -->
+      <section
+        id="kontak"
+        class="section"
+      >
+        <div class="content">
+          <h2>Kontak & Saran</h2>
+          <form id="kontakForm">
+            <input
+              type="text"
+              placeholder="Nama Lengkap"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Email"
+              required
+            />
+            <textarea
+              placeholder="Tuliskan saran dan masukan Anda"
+              required
+            ></textarea>
+            <button type="submit">Kirim Saran</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <!-- Contact End -->
+    <script src="script.js"></script>
+  </body>
+</html>
