@@ -73,7 +73,7 @@ nav a:hover {
 }
 
 #beranda {
-  background-image: url('/img/beranda.jpg');
+  background-image: url('img/beranda.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -87,7 +87,7 @@ nav a:hover {
 }
 
 #informasi {
-  background-image: url('/img/informasi.jpg');
+  background-image: url('img/informasi.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 #tools {
-  background-image: url('/img/tools.jpg');
+  background-image: url('img/tools.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
